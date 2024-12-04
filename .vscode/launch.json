@@ -12,12 +12,12 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "/mnt/c/Users/William/Desktop/UniFiles/USYD/2024-Semester2/Operating System Internals/assignment_2_2/run_me",
+      "program": "/mnt/c/Users/William/Desktop/epic/run_me",
       "args": [
-        "/mnt/c/Users/William/Desktop/UniFiles/USYD/2024-Semester2/Operating System Internals/assignment_2_2/optimiseInput.txt"
+        "/mnt/c/Users/William/Desktop/epic/running_test.txt"
       ],
       "stopAtEntry": false,
-      "cwd": "/mnt/c/Users/William/Desktop/UniFiles/USYD/2024-Semester2/Operating System Internals/assignment_2_2",
+      "cwd": "/mnt/c/Users/William/Desktop/epic/",
       "environment": [],
       "externalConsole": false,
       "MIMode": "gdb",

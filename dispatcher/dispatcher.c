@@ -44,7 +44,7 @@ pcb * run_job(linked_list * multilevel_queue, pcb * job, int remaining_quantum_t
         remaining_quantum_time = job->remaining_time_quantum;
     }
 
-    //startPcb(job);
+    startPcb(job);
     while (1==1) {
 
         if (job->cpu_time <= 0) {
@@ -61,9 +61,9 @@ pcb * run_job(linked_list * multilevel_queue, pcb * job, int remaining_quantum_t
             break;
         }
         
-        //#ifndef DEBUG
-        //    sleep(1);
-        //#endif
+        #ifndef DEBUG
+            sleep(1);
+        #endif
        
         job->service_time++; 
         job->cpu_time--;
